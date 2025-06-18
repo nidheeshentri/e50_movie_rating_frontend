@@ -47,7 +47,7 @@ const Homepage = () => {
             setNewMovie({
                 movieTitle: "",
                 movieImage: "",
-                ratings: 3,
+                ratings: 0,
             })
         })
         .catch(err => {
